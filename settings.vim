@@ -4,11 +4,6 @@ set number
 " Tab Spacing
 set tabstop=2
 
-" Xclip support 
-vnoremap <silent><Leader>y "yy <Bar> :call system('xclip', @y)<CR>
-
-" Leader Remao
-let mapleader = "<Space>"
 
 " Lightline Support
 set laststatus=2
@@ -17,7 +12,6 @@ set laststatus=2
 if !has('gui_running')
 		set t_Co=256
 endif
-
 " Remove Redundant Insert Value
 set noshowmode
 
@@ -30,4 +24,16 @@ let g:lightline = {
 
 
 " ColorScheme 
-colorscheme moonfly
+colorscheme default
+
+" Java Highlighting
+let java_highlight_functions = 1
+
+let java_highlight_all = 1
+" set filetype=java
+highlight link javaScopeDecl Statement
+highlight link javaType Type
+highlight link javaDocTags PreProc
+
+" line number colorchange
+highlight lineNr ctermfg=yellow
