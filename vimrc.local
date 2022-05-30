@@ -2,4 +2,5 @@ source /etc/vim/plugins.vim
 source /etc/vim/coc.vim
 source /etc/vim/settings.vim
 source /etc/vim/keymaps.vim
+source /etc/vim/setup.vim
 
