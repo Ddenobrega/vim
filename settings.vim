@@ -3,6 +3,8 @@ set number
 
 " Tab Spacing
 set tabstop=2
+set shiftwidth=2
+set expandtab
 
 
 " Lightline Support
@@ -38,3 +40,5 @@ highlight link javaDocTags PreProc
 " line number colorchange
 highlight lineNr ctermfg=yellow
 set background=dark
+
+
