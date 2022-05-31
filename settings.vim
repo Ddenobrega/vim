@@ -37,3 +37,4 @@ highlight link javaDocTags PreProc
 
 " line number colorchange
 highlight lineNr ctermfg=yellow
+set background=dark
